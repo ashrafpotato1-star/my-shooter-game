@@ -1,0 +1,12 @@
+{
+  "name": "mobile-fps",
+  "version": "1.0.0",
+  "description": "3D multiplayer FPS for mobile browsers (Three.js + Socket.io)",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
